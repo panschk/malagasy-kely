@@ -1,0 +1,30 @@
+var BIBY = [
+"tantely",
+"lolo",
+"saka",
+"omby",
+"foza",
+"alika",
+"ganagana",
+"sahona",
+"voangory",
+"gidro",
+"liona",
+"totozy",
+"kisoa",
+"trondro",
+"ondry",
+"tigra"
+];
+var LOKO = [
+"fotsy",
+"maintso",
+"mainty",
+"manga",
+"mavo",
+"mavokely",
+"mena",
+"orange",
+"volomparasy",
+"volontany"
+]
