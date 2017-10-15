@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="select" ng-controller="Main as m">
+<head>
+<meta charset="utf-8"/>
+	<title>hianatra teny</title>
+	<script src="js/teny2.js"></script>
+	<script src="js/angular.min.js"></script>
+	<script src="js/mifidy_mianatra.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+<br />
+	<div ng-repeat="l in L track by $index" ng-disabled="false">
+		<a  href="mianatra.html?level={{l}}">{{l}}</a>
+	</div>
+</body>
+</html>
+

@@ -6,3 +6,5 @@ height: 33%;
 body {
 background-color:#eeeeee;
 }
+
+.ng-cloak { visibility:hidden; }

@@ -1,15 +1,17 @@
 var app = angular.module('memory', []);
 app.controller('Main', ['$scope', function Main($scope) {
-	this.level = getParameterByName("level");
+	this.level = getParam("level");
+	$scope.words = clone(T[this.level]);
+	shuffle($scope.words);
 	this.isactive = 'menu';
 	this.startMemory = function() {
 		this.isactive = 'memory';
 		$scope.game = new Memory(this);
 		$scope.game.init(this.count);
-	}
+	};
 	this.mainMenu = function() {
 		this.isactive = 'menu';
-	}
+	};
 	this.getCardsize = function() {
 		var windowheight = window.innerHeight;
 		var windowwidth = window.innerWidth;
@@ -18,19 +20,23 @@ app.controller('Main', ['$scope', function Main($scope) {
 		height += 20;
 		
 		return "height:"+height+"px;width: "+value + "px;";
-	}
+	};
 	this.showText = function(card) {
+		return card;
 		
-			return card;
-		
-	}
+	};
+	this.milaza = function(word, level) {
+		console.log(word);
+		var audioObj = new Audio("feo/"+level+"/" + word +".mp3");
+		audioObj.play();
+	};
 	
 	$scope.translate = translate;
-	$scope.languages = languages;
 	$scope.text = text;
 	$scope.T = T;
 	$scope.level = this.level;
-	
+	$scope.getParam = getParam;
+	$scope.milaza = this.milaza;
 }]);
 
 var Memory = function(m) {
@@ -90,13 +96,6 @@ var Memory = function(m) {
 
 var text = function(t) {
 	return translate(t, g.language);
-}
-var GlobalScope = {
-	lastName : "",
-	turns : 0,
-	highscoreList : {},
-	lastCount : 4,
-	language : languages[0]
-}
+};
 
 
