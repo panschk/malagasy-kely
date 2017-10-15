@@ -1,23 +1,30 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8"/>
+<html ng-app="memory" ng-controller="Main as m">
+  <head>
+	<meta charset="utf-8"/>
 	<title>hianatra teny</title>
 	<script src="js/teny.js"></script>
 	<script src="js/angular.min.js"></script>
+	<script src="js/util.js"></script>
 	<script src="js/scripts.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
-</head>
-<body>
-<div id = "main">
-<div id = "c1" class="card"></div>
-<div id = "c2" class="card"></div>
-<div id = "c3" class="card"></div>
-<div id = "c4" class="card"></div>
-<div id = "c5" class="card"></div>
-<div id = "c6" class="card"></div>
-</div>
-
-</body>
+  </head>
+  <body>
+  
+<div id = "wrapper">
+	<div id="memory" ng-cloak>
+		<a href="index.html">←</a>
+	  <br />
+	   <button ng-repeat="w in T[level] track by $index" style="{{m.getCardsize()}}" ng-class="'card_'+card.class" ng-disabled="card.class!='hidden'" ng-click="game.turn($index)">
+		<img src="sary/{{level}}/{{w}}.png" style="width:100%" class = "cardtext"/>
+		<div class = "cardtext" >{{m.showText(w)}}</div>
+	   </button>
+	</div>
+	
+	<div id="footer">
+	Most card images are designed by <a href="http://www.flaticon.com/authors/freepik" target="_blank">Freepik from Flaticon</a>
+	</div>
+	</div>
+  </body>
 </html>
 
