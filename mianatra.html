@@ -16,7 +16,7 @@
 		<a href="mifidy_mianatra.html">←</a>
 	  <br />
 	   <button ng-repeat="w in words track by $index" style="{{m.getCardsize()}}" ng-class="'card_'+card.class" ng-disabled="false" ng-click="milaza(w, level)">
-		<img ng-src="sary/{{level}}/{{w}}.png" style="width:100%" class = "cardtext"/>
+		<img ng-src="sary/{{level}}/{{w}}.png" class = "card"/>
 		<div class = "cardtext" >{{m.showText(w)}}</div>
 	   </button>
 	</div>

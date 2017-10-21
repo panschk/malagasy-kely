@@ -31,7 +31,6 @@ app.controller('Main', ['$scope', function Main($scope) {
 		audioObj.play();
 	};
 	
-	$scope.translate = translate;
 	$scope.text = text;
 	$scope.T = T;
 	$scope.level = this.level;

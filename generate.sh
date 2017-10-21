@@ -1,4 +1,4 @@
-p=$(pwd)/js/teny2.js;
+p=$(pwd)/js/teny.js;
 echo "//generated with generate.sh" > $p;
 completeList="T = {";
 levelList="L = [";
@@ -10,11 +10,11 @@ for folder in *; do
   cd $folder
   for f in *.png; do
     word=${f%.png};
-    if [ -e "../../feo/$folder/$word".mp3 ]; then
+    #if [ -e "../../feo/$folder/$word".mp3 ]; then
       echo "\"$word\",">>$p;
-    else
-      echo "missing $folder/$word.mp3 file";
-    fi;
+    #else
+    #  echo "missing $folder/$word.mp3 file";
+    #fi;
   done
   echo "];">>$p;
   cd ..
