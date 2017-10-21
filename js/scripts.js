@@ -2,7 +2,7 @@ var app = angular.module('memory', []);
 app.controller('Main', ['$scope', function Main($scope) {
 	this.level = getParam("level");
 	$scope.words = clone(T[this.level]);
-	shuffle($scope.words);
+	//shuffle($scope.words);
 	this.isactive = 'menu';
 	this.startMemory = function() {
 		this.isactive = 'memory';

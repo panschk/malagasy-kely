@@ -1,6 +1,6 @@
 //generated with generate.sh
 var akanjo = [
-"002-socks",
+"bakiraro",
 "fehikibo",
 "kiraro",
 "lobaka",
