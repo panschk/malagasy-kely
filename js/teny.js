@@ -98,7 +98,6 @@ var loko = [
 ];
 var sakafo = [
 "atody",
-"biscuit",
 "divay",
 "fromazy",
 "glasy",
@@ -127,8 +126,8 @@ var toetrandro = [
 "voninkazo",
 ];
 var vatana = [
-"am-po",
-"leg",
+"fo",
+"fe",
 "lela",
 "maso",
 "nify",
