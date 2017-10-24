@@ -74,7 +74,6 @@ var isa = [
 "9",
 ];
 var legoma = [
-"broccoli",
 "dipoavatra",
 "karaoty",
 "katsaka",

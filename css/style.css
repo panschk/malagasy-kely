@@ -6,4 +6,9 @@ body {
 background-color:#eeeeee;
 }
 
+body {
+	font-size:200%;
+	font-family: verdana, sans-serif;
+}
+
 .ng-cloak { visibility:hidden; }
