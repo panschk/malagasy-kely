@@ -10,5 +10,13 @@ body {
 	font-size:200%;
 	font-family: verdana, sans-serif;
 }
-
+#question {
+	background-color:#dddddd;
+	font-size:20pt;
+	font-weight:bold;
+}
+.icon {
+	width:32px;
+	
+}
 .ng-cloak { visibility:hidden; }

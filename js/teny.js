@@ -174,4 +174,4 @@ var zavatra = [
 "voninkazo",
 ];
 L = [ "akanjo", "asa", "biby", "fifamoivoizana", "isa", "legoma", "loko", "sakafo", "toetrandro", "vatana", "voankazo", "zavatra", ];
-T = { "akanjo":akanjo, "asa":asa, "biby":biby, "fifamoivoizana":fifamoivoizana, "isa":isa, "legoma":legoma, "loko":loko, "sakafo":sakafo, "toetrandro":toetrandro, "vatana":vatana, "voankazo":voankazo, "zavatra":zavatra, };
+M = { "akanjo":akanjo, "asa":asa, "biby":biby, "fifamoivoizana":fifamoivoizana, "isa":isa, "legoma":legoma, "loko":loko, "sakafo":sakafo, "toetrandro":toetrandro, "vatana":vatana, "voankazo":voankazo, "zavatra":zavatra, };

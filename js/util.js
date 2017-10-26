@@ -31,11 +31,8 @@ function shuffle(a) {
 }
 
 function noise() {
-    var f1 = getRandomInt(200,800)
-	var f2 = getRandomInt(200,800)
-	
-	var sine1 = T("sin", {freq:f1, mul:0.5});
-	var sine2 = T("sin", {freq:f2, mul:0.5});
+	var sine1 = T("sin", {freq:300, mul:0.4});
+	var sine2 = T("sin", {freq:100, mul:0.6});
     T("perc", {r:300}, sine1, sine2).on("ended", function() {
 	this.pause();
 	}).bang().play();

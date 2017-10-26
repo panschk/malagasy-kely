@@ -1,6 +1,6 @@
 p=$(pwd)/js/teny.js;
 echo "//generated with generate.sh" > $p;
-completeList="T = {";
+completeList="M = {";
 levelList="L = [";
 cd sary
 for folder in *; do 

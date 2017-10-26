@@ -1,7 +1,7 @@
 var app = angular.module('mianatra', []);
 app.controller('Main', ['$scope', function Main($scope) {
 	this.level = getParam("level");
-	$scope.words = clone(T[this.level]);
+	$scope.words = clone(M[this.level]);
 	shuffle($scope.words);
 	this.showText = function(card) {
 		return card;
@@ -13,7 +13,6 @@ app.controller('Main', ['$scope', function Main($scope) {
 	};
 	
 	$scope.text = text;
-	$scope.T = T;
 	$scope.level = this.level;
 	$scope.getParam = getParam;
 	$scope.milaza = this.milaza;

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="fitsapana" ng-controller="Main as m">
+  <head>
+	<meta charset="utf-8"/>
+	<title>hianatra teny</title>
+	<script src="js/teny.js"></script>
+	<script src="js/angular.min.js"></script>
+	<script src="js/timbre.js"></script>
+	<script src="js/util.js"></script>
+	<script src="js/fitsapana.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body ng-cloak>
+  
+<div id = "wrapper">
+	<div id="mianatra" ng-cloak>
+		<a href="mifidy_kilalao.html">←</a>
+		<br />
+		<div id = "question" ng-show="!finished">{{wordsQuiz[0]}}
+			<button ng-click="milaza(wordsQuiz[0], level)"><img src="sary/megaphone.png" class="icon"/></button>
+		</div>
+		<div id = "finished" ng-show="finished">Tsara! <a href="mifidy_kilalao.html">miverina</a>
+		</div>
+		<button ng-repeat="w in wordsDisplay track by $index" style="{{m.getCardsize()}}" ng-class="'card_'+card.class" ng-disabled="false" ng-click="m.try(w)">
+			<img ng-src="sary/{{level}}/{{w}}.png" class = "card"/>
+		</button>
+	</div>
+	
+	<div id="footer">
+	Most card images are designed by <a href="http://www.flaticon.com/authors/freepik" target="_blank">Freepik from Flaticon</a>
+	</div>
+	</div>
+  </body>
+</html>
+
