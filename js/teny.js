@@ -61,17 +61,17 @@ var fifamoivoizana = [
 "traktera",
 ];
 var isa = [
-"0",
-"10",
-"1",
-"2",
-"3",
-"4",
-"5",
-"6",
-"7",
-"8",
-"9",
+"aotra",
+"folo",
+"iray",
+"roa",
+"telo",
+"efatra",
+"dimy",
+"enina",
+"fito",
+"valo",
+"sivy",
 ];
 var legoma = [
 "dipoavatra",

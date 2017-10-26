@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html ng-app="memory" ng-controller="Main as m">
+<html ng-app="mianatra" ng-controller="Main as m">
   <head>
 	<meta charset="utf-8"/>
 	<title>hianatra teny</title>
 	<script src="js/teny.js"></script>
 	<script src="js/angular.min.js"></script>
 	<script src="js/util.js"></script>
-	<script src="js/scripts.js"></script>
+	<script src="js/mianatra.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
   <body ng-cloak>
   
 <div id = "wrapper">
-	<div id="memory" ng-cloak>
+	<div id="mianatra" ng-cloak>
 		<a href="mifidy_mianatra.html">←</a>
 	  <br />
 	   <button ng-repeat="w in words track by $index" style="{{m.getCardsize()}}" ng-class="'card_'+card.class" ng-disabled="false" ng-click="milaza(w, level)">
