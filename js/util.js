@@ -31,11 +31,8 @@ function shuffle(a) {
 }
 
 function noise() {
-	var sine1 = T("sin", {freq:300, mul:0.4});
-	var sine2 = T("sin", {freq:100, mul:0.6});
-    T("perc", {r:300}, sine1, sine2).on("ended", function() {
-	this.pause();
-	}).bang().play();
+		var audioObj = new Audio("feo/autistic-lucario_error.wav");
+		audioObj.play();
 }
 
 function getRandomInt(min, max) {
