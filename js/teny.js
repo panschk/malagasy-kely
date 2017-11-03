@@ -10,6 +10,8 @@ var akanjo = [
 "solomaso",
 "zipo",
 ];
+var ambanivohitra = [
+];
 var asa = [
 "dokotera",
 "mpahandro",
@@ -47,31 +49,19 @@ var biby = [
 "vorona",
 ];
 var fifamoivoizana = [
-"angidimby",
-"bisikileta",
-"bus",
-"fiaramanidina",
-"fiara mpitondra marary",
-"fiaran-dalamby",
-"fiara",
-"kamiao",
-"lalamby",
-"môtô",
-"sambo",
-"traktera",
 ];
 var isa = [
 "aotra",
+"dimy",
+"efatra",
+"enina",
+"fito",
 "folo",
 "iray",
 "roa",
-"telo",
-"efatra",
-"dimy",
-"enina",
-"fito",
-"valo",
 "sivy",
+"telo",
+"valo",
 ];
 var legoma = [
 "dipoavatra",
@@ -92,7 +82,7 @@ var loko = [
 "mavo",
 "mena",
 "orange",
-"volomparasy",
+"volom-parasy",
 "volontany",
 ];
 var sakafo = [
@@ -125,8 +115,8 @@ var toetrandro = [
 "voninkazo",
 ];
 var vatana = [
-"fo",
 "fe",
+"fo",
 "lela",
 "maso",
 "nify",
@@ -141,7 +131,6 @@ var vatana = [
 var voankazo = [
 "akondro",
 "frezy",
-"kiwi",
 "mananasy",
 "paiso",
 "paoma",
@@ -169,9 +158,8 @@ var zavatra = [
 "penina",
 "seza",
 "solosaina",
-"tantanana",
 "varavarana",
 "voninkazo",
 ];
-L = [ "akanjo", "asa", "biby", "fifamoivoizana", "isa", "legoma", "loko", "sakafo", "toetrandro", "vatana", "voankazo", "zavatra", ];
-M = { "akanjo":akanjo, "asa":asa, "biby":biby, "fifamoivoizana":fifamoivoizana, "isa":isa, "legoma":legoma, "loko":loko, "sakafo":sakafo, "toetrandro":toetrandro, "vatana":vatana, "voankazo":voankazo, "zavatra":zavatra, };
+L = [ "akanjo", "ambanivohitra", "asa", "biby", "fifamoivoizana", "isa", "legoma", "loko", "sakafo", "toetrandro", "vatana", "voankazo", "zavatra", ];
+M = { "akanjo":akanjo, "ambanivohitra":ambanivohitra, "asa":asa, "biby":biby, "fifamoivoizana":fifamoivoizana, "isa":isa, "legoma":legoma, "loko":loko, "sakafo":sakafo, "toetrandro":toetrandro, "vatana":vatana, "voankazo":voankazo, "zavatra":zavatra, };
