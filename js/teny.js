@@ -48,6 +48,8 @@ var biby = [
 "voangory",
 "vorona",
 ];
+var familie = [
+];
 var fifamoivoizana = [
 ];
 var isa = [
@@ -161,5 +163,5 @@ var zavatra = [
 "varavarana",
 "voninkazo",
 ];
-L = [ "akanjo", "ambanivohitra", "asa", "biby", "fifamoivoizana", "isa", "legoma", "loko", "sakafo", "toetrandro", "vatana", "voankazo", "zavatra", ];
-M = { "akanjo":akanjo, "ambanivohitra":ambanivohitra, "asa":asa, "biby":biby, "fifamoivoizana":fifamoivoizana, "isa":isa, "legoma":legoma, "loko":loko, "sakafo":sakafo, "toetrandro":toetrandro, "vatana":vatana, "voankazo":voankazo, "zavatra":zavatra, };
+L = [ "akanjo", "ambanivohitra", "asa", "biby", "familie", "fifamoivoizana", "isa", "legoma", "loko", "sakafo", "toetrandro", "vatana", "voankazo", "zavatra", ];
+M = { "akanjo":akanjo, "ambanivohitra":ambanivohitra, "asa":asa, "biby":biby, "familie":familie, "fifamoivoizana":fifamoivoizana, "isa":isa, "legoma":legoma, "loko":loko, "sakafo":sakafo, "toetrandro":toetrandro, "vatana":vatana, "voankazo":voankazo, "zavatra":zavatra, };
