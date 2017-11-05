@@ -1,5 +1,6 @@
 img.card {
-width: 128px;
+max-width: 256px;
+width:calc(8vw + 8vh);
 
 }
 body {
@@ -17,7 +18,9 @@ body {
 }
 .icon {
 	width:32px;
-	
+}
+.preview {
+	width:32px;
 }
 .ng-cloak { visibility:hidden; }
 
@@ -27,3 +30,16 @@ body {
     right:0px;
 	font-size:50%;
 }
+button.levelselect {
+	border: 1px solid black;
+	margin: 4px;
+	padding: 2px;
+	padding-top:10px;
+	padding-bottom:5px;
+	width: 24%;
+	min-height: 24%;
+	white-space:nowrap;
+	float: left;
+	border-radius:20px;
+	}
+

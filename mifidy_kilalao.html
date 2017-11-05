@@ -8,11 +8,11 @@
 	<script src="js/mifidy_mianatra.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
-<body>
+<body ng-cloak>
 <br />
 <a href="index.html">←</a>
 	<div ng-repeat="l in L track by $index" ng-disabled="false">
-		<a  href="fitsapana.html?level={{l}}">{{l}}</a>
+		<a  href="fitsapana.html?level={{l}}"><button class = "levelselect">{{l}}<img src = "sary/{{l}}/{{getPic(l, 0)}}.png" class = "preview"/><img src = "sary/{{l}}/{{getPic(l, 1)}}.png" class = "preview"/><img src = "sary/{{l}}/{{getPic(l, 2)}}.png" class = "preview"/></button></a>
 	</div>
 	<br />
 <div id = "footer"><a href="credits.html">Credits</a></div>
