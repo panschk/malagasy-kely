@@ -35,6 +35,11 @@ function noise() {
 		audioObj.play();
 }
 
+function successSound() {
+		var audioObj = new Audio("feo/grunz__success.wav");
+		audioObj.play();
+}
+
 function getRandomInt(min, max) {
 	min = Math.ceil(min);
 	max = Math.floor(max);

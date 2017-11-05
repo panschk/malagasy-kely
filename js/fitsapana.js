@@ -18,6 +18,7 @@ app.controller('Main', ['$scope', function Main($scope) {
 			$scope.wordsQuiz = $scope.wordsQuiz.splice(1);
 			if ($scope.wordsQuiz.length < 1) {
 				$scope.finished=true;
+				successSound();
 			} else {
 				this.milaza($scope.wordsQuiz[0], this.level);
 			}
