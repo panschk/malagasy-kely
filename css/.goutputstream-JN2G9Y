@@ -36,14 +36,11 @@ button.levelselect {
 	padding: 2px;
 	padding-top:10px;
 	padding-bottom:5px;
-	width: 100%;
+	width: 50%;
 	min-height: 24%;
 	white-space:nowrap;
-	//float: left;
+	float: left;
 	border-radius:20px;
 	text-align:left;
 	}
-a {
-	text-decoration: none;:none;
-}
 
