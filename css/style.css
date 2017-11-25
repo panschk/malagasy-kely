@@ -4,11 +4,11 @@ width:calc(8vw + 8vh);
 
 }
 body {
-background-color:#eeeeee;
+	background-color:#eeeeee;
 }
 
 body {
-	font-size:200%;
+	font-size:130%;
 	font-family: verdana, sans-serif;
 }
 #question {
@@ -17,10 +17,13 @@ body {
 	font-weight:bold;
 }
 .icon {
-	width:32px;
+	width:64px;
+}
+.iconsmall {
+	width: 16px;
 }
 .preview {
-	width:32px;
+	width:48px;
 }
 .ng-cloak { visibility:hidden; }
 
@@ -36,14 +39,21 @@ button.levelselect {
 	padding: 2px;
 	padding-top:10px;
 	padding-bottom:5px;
-	width: 100%;
-	min-height: 24%;
-	white-space:nowrap;
-	//float: left;
+	width: 160px;
+	height: 100px;
 	border-radius:20px;
-	text-align:left;
-	}
+	text-align:center;
+	font-size: 14pt;
+}
 a {
 	text-decoration: none;:none;
 }
+.menuentry *{
+  display: inline-block;
+  vertical-align: middle;
+}
+h2 {
+	font-size: 80%;
+}
+
 
