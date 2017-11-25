@@ -32,6 +32,7 @@ body {
     bottom:0px;
     right:0px;
 	font-size:50%;
+	background-color:white;
 }
 button.levelselect {
 	border: 1px solid black;
@@ -56,7 +57,7 @@ h2 {
 	font-size: 80%;
 }
 .cardtext {
-	font-size: 16pt;
+	font-size: 14pt;
 }
 
 
