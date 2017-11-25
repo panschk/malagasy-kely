@@ -8,7 +8,7 @@ body {
 }
 
 body {
-	font-size:130%;
+	font-size:200%;
 	font-family: verdana, sans-serif;
 }
 #question {
@@ -17,13 +17,13 @@ body {
 	font-weight:bold;
 }
 .icon {
-	width:64px;
+	width:128px;
 }
 .iconsmall {
-	width: 16px;
+	width: 32px;
 }
 .preview {
-	width:48px;
+	width:96px;
 }
 .ng-cloak { visibility:hidden; }
 
@@ -39,8 +39,8 @@ button.levelselect {
 	padding: 2px;
 	padding-top:10px;
 	padding-bottom:5px;
-	width: 160px;
-	height: 100px;
+	width: 320px;
+	height: 200px;
 	border-radius:20px;
 	text-align:center;
 	font-size: 14pt;
