@@ -4,7 +4,11 @@ app.controller('Main', ['$scope', function Main($scope) {
 	$scope.words = clone(M[this.level]);
 	shuffle($scope.words);
 	this.showText = function(card) {
-		return card;
+		var text = card;
+		if (text === "moto") {
+			text = "môtô";
+		}
+		return text;
 		
 	};
 	this.milaza = function(word, level) {

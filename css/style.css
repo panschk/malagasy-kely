@@ -5,6 +5,7 @@ width:calc(8vw + 8vh);
 }
 body {
 	background-color:#eeeeee;
+	color:#000055;
 }
 
 body {
@@ -45,6 +46,7 @@ button.levelselect {
 	border-radius:20px;
 	text-align:center;
 	font-size: 14pt;
+	color:#000055;
 }
 a {
 	text-decoration: none;:none;
@@ -58,6 +60,7 @@ h2 {
 }
 .cardtext {
 	font-size: 14pt;
+	color:#000055;
 }
 
 
