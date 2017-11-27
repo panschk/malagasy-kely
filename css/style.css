@@ -9,7 +9,7 @@ body {
 }
 
 body {
-	font-size:200%;
+	font-size:120%;
 	font-family: verdana, sans-serif;
 }
 #question {
@@ -18,13 +18,13 @@ body {
 	font-weight:bold;
 }
 .icon {
-	width:128px;
+	width:40px;
 }
 .iconsmall {
-	width: 32px;
+	width: 20px;
 }
 .preview {
-	width:96px;
+	width:48px;
 }
 .ng-cloak { visibility:hidden; }
 
@@ -37,15 +37,15 @@ body {
 }
 button.levelselect {
 	border: 1px solid black;
-	margin: 4px;
+	margin: 3px;
 	padding: 2px;
 	padding-top:10px;
 	padding-bottom:5px;
-	width: 320px;
-	height: 200px;
-	border-radius:20px;
+	width: 160px;
+	height: 100px;
+	border-radius:10px;
 	text-align:center;
-	font-size: 14pt;
+	font-size: 12pt;
 	color:#000055;
 }
 a {
@@ -59,7 +59,7 @@ h2 {
 	font-size: 80%;
 }
 .cardtext {
-	font-size: 14pt;
+	font-size: calc(0.8vw + 0.7vh);
 	color:#000055;
 }
 

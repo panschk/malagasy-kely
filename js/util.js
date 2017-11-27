@@ -31,12 +31,12 @@ function shuffle(a) {
 }
 
 function noise() {
-		var audioObj = new Audio("feo/autistic-lucario_error.wav");
+		var audioObj = new Audio("feo/autistic-lucario_error.mp3");
 		audioObj.play();
 }
 
 function successSound() {
-		var audioObj = new Audio("feo/grunz__success.wav");
+		var audioObj = new Audio("feo/grunz__success.mp3");
 		audioObj.play();
 }
 
